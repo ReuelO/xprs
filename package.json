@@ -1,0 +1,31 @@
+{
+  "name": "xprs",
+  "version": "1.0.0",
+  "description": "A CLI tool for rapidly generating Express.js applications.",
+  "main": "index.js",
+  "bin": {
+    "xprs": "./bin/xprs.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReuelO/xprs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ReuelO/xprs/issues"
+  },
+  "homepage": "https://github.com/ReuelO/xprs#readme",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "dotenv": "^16.4.7",
+    "fs-extra": "^11.3.0",
+    "inquirer": "^12.4.3"
+  }
+}
